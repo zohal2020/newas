@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Saturn's Movie Theater🎥</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/jpg" href="favicon2.jpg">
+</head>
+<body>
+
+  <section class="theater">
+    <h1>Welcome to Saturn's Movie Theater 🍿🎬</h1>
+
+    <div class="screen">
+      <video controls>
+        <source src="zohal.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <div class="buttons">
+      <button onclick="document.querySelector('video').currentTime = 0; document.querySelector('video').play();">Play Again</button>
+      <button onclick="alert('Thanks for your rating!')">Rate Movie</button>
+    </div>
+  </section>
+  <div class="screen">
+    <div class="lights"></div> <!-- Blinking lights -->
+    <video controls>
+      <source src="zohal.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+</body>
+</html>
